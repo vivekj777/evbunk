@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111b23;
+}
+.head{
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.head a{
+    color:#34FBBA;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding: 12px 40px;
+  
+ 
+}
+.head a:hover
+
+{
+   color: aliceblue;
+
+}
+.images{
+   
+    width: 100%;
+}
+#img1{
+    width: 100%;
+    height: 35rem ;
+}
+.about{
+    text-align: center;
+    font-size: 30px;
+    width: 75%;
+    color: #34FBBA;
+    align-items: center;
+}
+
+#btn1{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    left: 600px;
+    border: 5px solid #34FBBA;
+    background: #111b23;
+    color: #34FBBA;
+ 
+    
+   
+   
+}
+#btn1:hover{
+    box-shadow: 0 5px 50px 0 #34FBBA inset, 0 5px 50px 0 #34FBBA inset,
+    0 5px 50px 0 #34FBBA inset,0 5px 50px 0 #34FBBA inset;
+}
+#btn1 h1{
+    font-size: 2em;
+}
+.book p{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+.head a{
+    padding-left: 0px;
+    padding: 4px 6px;
+   
+  
+}
+.head{
+    font-size: 17px;
+    margin-left: 0px;
+}
+#img1{
+    width: 100%;
+    height: 20rem ;
+}
+.about h1{
+    font-size: 40px;
+}
+.about p{
+    font-size: 17px;
+    width: 100%;
+
+}
+.about{
+    width: 100%;
+}
+#btn1{
+ left: 22%;
+ width: 13rem;
+ height: 13rem;  
+   
+   
+}
+}
